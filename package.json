@@ -3,7 +3,7 @@
   "icon": "images/mylogo.jpg",
   "displayName": "AlThePals78's SASS Boiler Plates",
   "description": "Making boiler plates for HTML, SCSS, and JavaScript for easy setup",
-  "version": "4.0.2",
+  "version": "5.0.1",
   "publisher": "althepal78",
   "engines": {
     "vscode": "^1.73.0"
