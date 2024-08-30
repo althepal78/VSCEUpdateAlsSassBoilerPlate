@@ -90,9 +90,14 @@ div.addEventListener('click', function(){
 				console.log("can't create folder js inside src folder/directory")
 			}
 		})
-	
+		setTimeout(() => {
+			console.log('')
+		}, 1000);
 		// creates the the path so that I can create the content into a file		
 		const jsPath = folderPath + '/src/js'
+		setTimeout(() => {
+			console.log('')
+		}, 1000);
 
 		// creates the js file site.js with the content inside 
 		fs.writeFile(path.join(jsPath,"/site.js"),jsContent, err =>{
