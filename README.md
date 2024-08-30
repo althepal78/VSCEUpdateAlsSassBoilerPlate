@@ -1,65 +1,22 @@
-# alsboilerplate README
+# AlThePal78's Sass Boilerplate
 
-What I have done was changed where the js script is and added defer to the tag element. I also deleted the _config file and added a comment to the site.scss file explaining how to use a partial in sass. I changed the names from app to site for js and scss. 
+Unfortunately, I couldn't change the name on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/), but I have updated the product itself. This boilerplate is designed to provide a simple and flexible starting structure for Sass (SCSS) projects, giving me full control over the development process.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This boilerplate includes the following:
 
-For example if there is an image subfolder under your extension project workspace:
+- An `index.html` file to serve as the entry point for your project.
+- A `src` folder that contains three subfolders: `css`, `scss`, and `js`.
+  - Each subfolder includes a file corresponding to its type: `site.css`, `site.scss`, and `site.js`.
+- A predefined script to monitor Sass changes in real-time, allowing you to see the effects immediately and ensure that JavaScript files are properly linked.
 
-\!\[feature X\]\(images/feature-x.png\)
+This setup facilitates a streamlined development process, helping me—and hopefully others—maintain an organized and efficient project structure.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Changelog
 
-## Requirements
+### Version 1.0.0
+- Fixed minor issues, including typographical errors and incorrect file names (e.g., `app.css` was changed to `site.css`).
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### Version 4.0.4
+- Made simple edits, such as adding an icon for the app and adjusting the folder structure.
